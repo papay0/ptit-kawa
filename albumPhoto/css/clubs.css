@@ -1,0 +1,143 @@
+/** Override admin CSS. **/
+
+.main-actions-container ul li a.btn:hover, .main-actions-container ul li a.btn:focus {
+    background-color: #04c !important ;
+}
+
+/** **/
+
+.message.valid {
+    color: #529214;
+}
+
+.message.error {
+    color: #D12F19;
+}
+
+.message.warning {
+    color: #817134;
+}
+
+div.pack-club-info {
+	margin-bottom: 20px ;
+}
+
+.club-description-form input[type="text"] {
+	width: inherit ;
+}
+
+table#club-staff {
+    border-collapse: separate ;
+    border-spacing: 10px 5px ;
+}
+
+table#club-staff .staff-label {
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+td.staff {
+    border-radius: 0 ;
+    margin: 5px 0 10px 20px ;
+    padding: 5px 0 10px 10px ;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 300px ;
+}
+
+td.staff span {
+    display: block ;
+}
+
+td.staff a.close {
+    background: url(../../img/close.png) no-repeat;
+    width: 16px;
+    height: 16px ;
+    float: right ;
+    margin-right: 10px ;
+    margin-top: 5px ;
+}
+
+td.staff a.close:hover {
+    cursor: pointer ;
+    background: url(../../img/close_over.png) no-repeat;
+}
+
+input[type="text"][readonly="readonly"] {
+    background-color: #eee ;
+    color: #eee ;
+}
+
+div.pack_club_nav, div.submit {
+    text-align: center ;
+}
+
+div.pack_club_nav {
+	margin-top: 10px;
+}
+
+div.pack_club_nav button {
+    width: 120px ;
+	margin: 0 8px;
+}
+
+/* Club places display */
+
+table#table_location, table#table_location tr, table#table_location td {
+    border: none ;
+    background: transparent ;
+}
+
+#table_location {
+    margin: auto ;
+	margin-bottom: 10px ;
+}
+
+#table_location h3 {
+    text-align: center ;
+}
+
+#table_location  td {
+	padding: 15px;
+}
+
+#table_location tr td a {
+  padding: 0 ;
+}
+
+#batiment_gm, #batiment_nord, #batiment_boum, #batiment_amicale {
+  margin-top: 10px ;
+  margin-left: 10px ;
+}
+
+div.block_place {
+    float: left ;
+    position: absolute ;
+    border: 1px solid black ;
+    background-color: white ;
+    box-sizing: content-box !important ;
+}
+
+div.block_place.over {
+    background-color: #BFF ;
+}
+
+div.block_place.fixed {
+    background-color: #CCC ;
+}
+
+div.block_place.selected {
+    background-color: #AEF ;
+}
+
+input[type="text"].clear-input, textarea.clear-input {
+    color: #aaa ;
+}
+
+#room-regular-add, #room-event-add{
+	width: 700px;
+	margin-left: -350px;	
+}
+
+.bootstrap-timepicker-widget {
+	z-index: 1000 ;
+}

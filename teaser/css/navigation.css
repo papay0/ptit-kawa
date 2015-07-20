@@ -1,0 +1,23 @@
+/* Logo & Name (TOP LEFT) */
+
+.navbar-brand {
+    margin-top: 4px !important ;
+}
+.navbar-brand .brand-logo {
+    float: left ;
+}
+
+.navbar-brand .brand-logo img {
+    height: 66px !important ;
+}
+
+.navbar-brand .brand-name {
+    float: left ;
+    font-family: Helvetica;
+    padding-top: 26px ;
+    margin-left: 10px;
+}
+
+.navbar-brand .brand-name span {
+    display:  block ;
+}

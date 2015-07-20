@@ -1,0 +1,115 @@
+body {
+    background: url(../img/workinprogress.jpg) no-repeat fixed ;
+    background-size: 100% 100%;
+    color: white !important ;
+}
+
+.wrapper {
+    margin-top: 120px ;
+    color: white !important ;
+    font-family: 'Open Sans', sans-serif !important ;
+}
+
+h1, h2, h3, h4, p, span {
+    color: white !important ;
+    font-family: 'Open Sans', sans-serif !important ;
+}
+
+.wrapper > .container {
+    min-height: 500px ;
+    position: relative;
+}
+
+.wrapper > .container > img {
+    height: 250px ;
+    float: left ;
+    max-width: 25% ;
+}
+
+.wrapper > .container > .info {
+    margin-left: 40px ;
+    float: left ;
+    width: 40%;
+}
+
+.wrapper > .container > .time {
+    float: right ;
+    margin-left: 40px ;
+    width: 35%;
+}
+
+.wrapper .container footer {
+    background: none ;
+    clear: both ;
+    position: absolute ;
+    bottom: 0 ;
+    right: 50px;
+    font-size: 15px;
+}
+
+@media(max-width: 1170px) {
+    .wrapper {
+        margin-top: 40px ;
+    }
+    .wrapper > .container {
+        min-height: 0 ;
+    }
+    .wrapper > .container > img {
+        height: auto ;
+        width: 25% ;
+    }
+    .wrapper > .container > .info {
+        width: 69% ;
+        margin-left: 30%;
+        float: none ;
+    }
+    .wrapper > .container > .time {
+        float: none ;
+        margin-left: 30%;
+        width: 69% ;
+    }
+    .wrapper .container footer {
+        position: relative ;
+        right: auto ;
+    }
+}
+
+@media(max-width: 715px) {
+    .wrapper {
+        margin-top: 20px ;
+    }
+    .wrapper > .container > img {
+        float: none ;
+        height: auto ;
+        width: 100% ;
+    }
+    .wrapper > .container > .info {
+        width: 100% ;
+        margin-left: 0 ;
+    }
+    .wrapper > .container > .time {
+        margin-left: 0;
+        width: 100% ;
+    }
+}
+
+.countdown {
+    text-align: center ;
+}
+
+.countdown-section {
+    display: block ;
+    float: left ;
+    width: 30% ;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    margin: 20px 2px ;
+    font-size: 18px ;
+    font-weight: bold ;
+    background: rgba(128, 128, 128, 0.3) ;
+    box-shadow: 0 0 4px rgba(128, 128, 128, 0.3) ;
+}
+
+.countdown-section .countdown-amount {
+    font-size: 35px ;
+}
