@@ -6,4 +6,4 @@ There is a system of vote for the three-best photos.
 There is a calendar with all the futur and past events.
 You can watch the teaser of each events.
 
-The website is available here : www.ptit-kawa.fr
+The website is available here : http://etud.insa-toulouse.fr/~ptit-kawa/
